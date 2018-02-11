@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link rel = "stylesheet" type = "text/css" href = "style.css"/>
+    <title>Tabs</title>
+</head>
+<body>
+  
+  <div id = "tab-content"> 
+    
+      <div id = "tabA" class = "tabs" onclick = "activeTab(1)">Tab 1</div>
+      
+      <div id = "tabB" class = "tabs" onclick = "activeTab(2)">Tab 2</div>
+    
+      <div id = "tabC" class = "tabs" onclick = "activeTab(3)">Tab 3</div>
+  </div>
+    
+    <br>
+        
+  <div id = "tab-text">    
+    <div id = "tab1" class = "content">
+      <div class="textContainer"> 
+        <label for = "name"  ><span>Name:</span></label>
+         <input type = "text" id = "name" placeholder="Enter your Name...">
+      </div>
+      <div class="textContainer">
+        <label for = "firstName"><span>First Name:</span></label>
+         <input type = "text" id = "firstName" placeholder="Enter your First Name...">
+      </div>
+      <div class="textContainer">
+        <label for = "adress"><span>Adress:</span></label>
+          <input type = "text" id = "adress" placeholder="Enter your Adress..." >
+      </div>
+        <div class="button">
+               <button id ="bttn" onclick = "tabOnetxt()">Submit</button>
+        </div>
+     
+   </div>  
+        
+        <div id = "tab2" class = "content">
+        <img src = "image.JPG">
+        </div> 
+    <div id = "tab3" class = "content">
+        <div id = "nameA"></div>
+        <div id = "fnameB"></div>
+        <div id = "adressC"></div>
+    </div>
+ </div>
+   
+<script src = "exercises.js" ></script>
+</body>
+</html>

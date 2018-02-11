@@ -1,0 +1,61 @@
+
+.tabs {
+    background: red;
+    float: left;
+    padding: 5px 10px 0px 5px;
+    margin: 0px 5px 0px 5px;
+    color: white;
+    
+}
+
+#tabA:hover, #tabB:hover, #tabC:hover  {
+    background: #E800C9;
+    cursor:pointer;
+}
+.content{
+    width: 50%;
+    height: auto;
+    padding: 20px;
+    border:1px solid #B00098;
+}
+
+#tab1 {
+    display: block;
+    clear: left;
+    }
+
+#tab2{
+    display:none;
+}
+#tab3{
+    display:none;
+}
+input, textarea{
+   font: 1em sans-serif;
+    width:250px;
+    box-sizing: border-box;
+    border: 1px solid #999;
+    
+}
+
+
+.textContainer{
+    text-align:left;
+    display: inline-block;
+        margin-bottom: 11px;
+   
+}
+
+.button{
+        margin-top: 12px;
+        margin-left: 61px;
+}
+label{
+    position: relative;
+}
+label span{
+    width:120px;
+    text-align: right;
+    display: inline-block;
+    font-weight: bold;
+}
